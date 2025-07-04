@@ -19,7 +19,7 @@ export default function AudioSeparator() {
   const recordingPreviewRef = useRef(null);
   const recordingIntervalRef = useRef(null);
 
-  const API_BASE_URL = 'http://127.0.0.1:5001';
+  const API_BASE_URL = 'https://voice-ai-backend-zry9.onrender.com';
 
   // File upload handler
   const handleFileChange = (event) => {
